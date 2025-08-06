@@ -1,16 +1,33 @@
-## 🧭 Learning Steps
+# 🧠 Serum DEX 从零开始拆解
 
-1. [Step 01 - Minimal Market State](./step01_minimal_market/)
+这是一个逐步学习项目，我会从最基础的概念出发，逐步还原 [Project Serum DEX](https://github.com/project-serum/serum-dex) 的核心机制，包括链上的订单簿、撮合逻辑、事件队列等。
 
-...
+项目目标是用最简单的代码（不追求封装或架构），真正搞懂 Serum 的实现逻辑。
 
-## 🤔 Who is this for?
+## 🧭 学习路径
 
-- Devs with backend or Java background
-- People new to Solana or Rust
-- Anyone trying to truly understand Serum
+每一步只关注一个核心概念，尽量用最小可运行代码实现出来。
 
-## 🛠️ Tools Used
+| Step | 标题                     | 说明                              |
+|------|--------------------------|-----------------------------------|
+| 01   | 最小 Market 结构         | 定义一个链上的 market 数据结构     |
+| 02   | 最简单的撮合逻辑         | 撮合一个买单与一个卖单             |
+| 03   | 模拟事件队列             | 实现一个环形事件缓冲区             |
+| 04   | 解析 Serum 链上账户结构  | 用 Rust/Anchor 读取真实链上数据     |
+| …    | …                        | …                                 |
 
-- Rust (no framework at first)
-- Anchor (optional in later steps)
+## 🎯 项目目标
+
+- 深入理解 Serum DEX 的底层设计
+- 通过实际编码学习 Rust 和 Solana
+- 帮助其他（尤其是 Java/后端）开发者入门链上交易系统
+
+## 🛠️ 使用工具
+
+- Rust（前期纯 Rust 编写, 最大化地理解每一步引入链上机制的原因和实现方式，不会被链上巨量的“样板代码”干扰学习核心业务逻辑。）
+- Anchor（后期读取链上账户结构或测试）
+- 可选：TS SDK（链上交互调试）
+
+## 🤝 欢迎参与
+
+这是我个人的学习项目，但欢迎任何 issue、PR 或交流建议 🙌

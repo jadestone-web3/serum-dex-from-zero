@@ -1,0 +1,6 @@
+[package]
+name = "step02_orderbook_balance_cancel"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies] 
