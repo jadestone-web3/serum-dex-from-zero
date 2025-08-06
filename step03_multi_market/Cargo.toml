@@ -1,0 +1,6 @@
+[package]
+name = "step03_multi_market"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
