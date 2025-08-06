@@ -1,6 +1,6 @@
 [workspace]
 members = [
     "step01_minimal_market",
-    "step02_orderbook_balance_cancel"，
-    "step03_multi_market
-]
+    "step02_orderbook_balance_cancel",
+    "step03_multi_market"
+, "step04_fee_history", "step05_consume_events"]
