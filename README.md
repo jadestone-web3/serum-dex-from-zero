@@ -7,14 +7,17 @@
 ## 🧭 学习路径
 
 每一步只关注一个核心概念，尽量用最小可运行代码实现出来。
+每个步骤的代码实现，都对应一个 README.md 文件。
 
-| Step | 标题                     | 说明                              |
-|------|--------------------------|-----------------------------------|
-| 01   | [最核心的订单簿撮合](./step01_minimal_market/README.md)       |      |
+README.md 中会详细介绍本步骤的实现思路、关键代码片段、核心算法原理、参考资料等。
+
+| Step | 标题                     | 
+|------|--------------------------|
+| 01   | [从最核心的订单簿撮合开始](./step01_minimal_market/README.md)       |      
 | 02   | [新增余额管理和撤单](./step02_order_cancel/README.md)       |
-| 03   | 新增多市场的订单簿撮合 | ./step03_multi_market/README.md        |
-| 04   | 新增手续费（Fee）与成交历史（Event Queue）机制  | ./step04_fee_history/README.md     |
-| 05    | 新增事件队列的消费指针与批量消费接口/订单有效期管理    | ./step05_consume_events/README.md   |
+| 03   | [新增多市场的订单簿撮合](./step03_multi_market/README.md) | 
+| 04   | [新增手续费（Fee）与成交历史（Event Queue）机制](./step04_fee_history/README.md)     |
+| 05    | [新增事件队列的消费指针与批量消费接口/订单有效期管理](./step05_consume_events/README.md)   |
 
 ## 🎯 项目目标
 
