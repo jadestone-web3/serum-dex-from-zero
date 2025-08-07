@@ -10,11 +10,11 @@
 
 | Step | 标题                     | 说明                              |
 |------|--------------------------|-----------------------------------|
-| 01   | 最小 Market 结构         | 定义一个链上的 market 数据结构     |
-| 02   | 最简单的撮合逻辑         | 撮合一个买单与一个卖单             |
-| 03   | 模拟事件队列             | 实现一个环形事件缓冲区             |
-| 04   | 解析 Serum 链上账户结构  | 用 Rust/Anchor 读取真实链上数据     |
-| …    | …                        | …                                 |
+| 01   | 最核心的订单簿撮合       | ./step01_minimal_market/README.md     |
+| 02   | 新增余额管理和撤单       | ./step02_order_cancel/README.md       |
+| 03   | 新增多市场的订单簿撮合 | ./step03_multi_market/README.md        |
+| 04   | 新增手续费（Fee）与成交历史（Event Queue）机制  | ./step04_fee_history/README.md     |
+| 05    | 新增事件队列的消费指针与批量消费接口/订单有效期管理    | ./step05_consume_events/README.md   |
 
 ## 🎯 项目目标
 
