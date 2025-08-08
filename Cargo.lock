@@ -21,3 +21,7 @@ version = "0.1.0"
 [[package]]
 name = "step05_consume_events"
 version = "0.1.0"
+
+[[package]]
+name = "step06_multi_order_type"
+version = "0.1.0"
